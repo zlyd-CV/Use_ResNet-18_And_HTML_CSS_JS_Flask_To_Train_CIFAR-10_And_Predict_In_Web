@@ -11,7 +11,7 @@ def train_validate_test_model(model, criterion, optimizer, scheduler, epochs, ba
     # 若要继续上次训练，需要手动指定初始化值
     best_train_loss = float('inf')
     best_validation_loss = float('inf')
-    best_test_loss = 0.3056  # 记得保存上一轮的最优测试集损失
+    best_test_loss = float('inf')  # 记得保存上一轮的最优测试集损失
 
     if os.path.exists(model_path) and os.path.exists(optimizer_path) and os.path.exists(scheduler_path):
         try:
