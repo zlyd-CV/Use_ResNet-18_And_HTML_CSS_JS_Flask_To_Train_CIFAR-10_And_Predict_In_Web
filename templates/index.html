@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIFAR-10 图像预测器</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>CIFAR-10 图像预测器</h1>
+
+        <div class="upload-section">
+            <label for="imageUpload" class="custom-file-upload">
+                选择图像
+            </label>
+            <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+            <button id="predictButton" class="predict-button" disabled>预测</button>
+        </div>
+
+        <div class="image-display-area">
+            <div class="image-placeholder" id="imagePlaceholder">
+                <p>您上传的图像将显示在此处。</p>
+            </div>
+            <img id="uploadedImage" src="#" alt="上传的图像" style="display: none;">
+        </div>
+
+        <div class="results-section">
+            <h2>预测结果:</h2>
+            <p id="predictionResult">上传图像并点击预测！</p>
+        </div>
+
+        <div id="loadingSpinner" class="spinner" style="display: none;"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
