@@ -32,4 +32,4 @@ pip install -r requirement.txt
 + 原论文地址：[He K, Zhang X, Ren S, et al. Deep residual learning for image recognition[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2016: 770-778.](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html)
 
 ## 五、未来考虑更新的方向
-+ 增加更多经典卷积神经网络，例如LeNet、VGG、GoodLeNet等
++ 增加更多经典卷积神经网络，例如LeNet、AlexNet、VGG、GoodLeNet等
