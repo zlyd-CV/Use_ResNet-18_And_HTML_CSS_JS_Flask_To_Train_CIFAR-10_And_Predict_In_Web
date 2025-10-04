@@ -4,9 +4,13 @@
 + 本项目基于Pytorch构建了一个ResNet-18模型用于训练CIFAR数据集，考虑到数据集尺寸，用3×3卷积层替代了7×7卷积与池化层。
 + 本项目基于HTML+CSS+JavaScript前端和Flask后端实现简单的模型部署。
 + 论文图和模型示意图：
+  
 ![模型示意图](https://github.com/zlyd-CV/Photos_Are_Used_To_Others_Repository/blob/bf00a4872a1813874261b61b4d0f2af3c1ab7c72/Use_ResNet-18_And_HTML_CSS_JS_Flask_To_Train_CIFAR-10_And_Predict_In_Web/Res-18%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+
 ![原论文结构图](https://github.com/zlyd-CV/Photos_Are_Used_To_Others_Repository/blob/bf00a4872a1813874261b61b4d0f2af3c1ab7c72/Use_ResNet-18_And_HTML_CSS_JS_Flask_To_Train_CIFAR-10_And_Predict_In_Web/Res-18%E5%8E%9F%E8%AE%BA%E6%96%87%E7%BB%93%E6%9E%84%E5%9B%BE.png)
-+ 项目流程图：暂无(近2天内更新)
++ 项目流程图：
+  
+![项目流程图](https://github.com/zlyd-CV/Photos_Are_Used_To_Others_Repository/blob/main/Use_ResNet-18_And_HTML_CSS_JS_Flask_To_Train_CIFAR-10_And_Predict_In_Web/ResNet-50%E9%A2%84%E6%B5%8BCIFAR-10%E6%95%B0%E6%8D%AE%E9%9B%86.drawio.drawio.svg)
 
 ## 二、内容介绍
 + 本项目包含：
