@@ -13,6 +13,32 @@
 ![项目流程图](https://github.com/zlyd-CV/Photos_Are_Used_To_Others_Repository/blob/main/Use_ResNet-18_And_HTML_CSS_JS_Flask_To_Train_CIFAR-10_And_Predict_In_Web/ResNet-50%E9%A2%84%E6%B5%8BCIFAR-10%E6%95%B0%E6%8D%AE%E9%9B%86.drawio.drawio.svg)
 
 ## 二、内容介绍
++ 目录结构
+```python
+├── .idea
+├── app.py  # Flask框架生成本地Web端程序
+├── data
+│   ├── cifar-10-batches-py
+│   ├── cifar-10-python.tar.gz
+├── model
+│   ├── main.py  # 训练模型程序
+│   ├── networks.py
+│   ├── optimizer.pth  # 优化器字典参数
+│   ├── read_dataset.py
+│   ├── ResNet_18.pth  # 模型字典参数参数
+│   ├── scheduler.pth  # 学习率字典参数
+│   ├── train_validate_test.py
+├── photos
+├── requirement.txt
+├── static
+│   ├── css
+│   │   ├── style.css
+│   ├── js
+│   │   ├── script.js
+├── templates
+│   ├── index.html
+├── test_version.py  # 检查包的版本
+```
 + 本项目包含：
 + requirements.txt：包的版本，运行下面命令即可下载到虚拟环境中，pytorch请前往官网下载
  ```txt
